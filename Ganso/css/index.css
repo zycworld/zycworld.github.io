@@ -1,0 +1,398 @@
+/*全部商品下拉框*/
+#classify_top{
+    width: 225px;
+    height: 436px;
+    float: left;
+    position: absolute;
+    top:135px;
+    list-style: none;
+}
+/*大图展示*/
+#show{
+    width: 1203px;
+    height: 434px;
+    margin:0 auto;
+    clear: left;
+}
+/*轮播图*/
+#carousel_figure{
+    width: 1012px;
+    height: 436px;
+    margin-top: -2px;
+    float: left;
+
+}
+#carousel_figure img{
+    width: 100%;
+    height: 100%;
+    /*margin-top: -2px;*/
+}
+/*轮播图*/
+.pointButton{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background:#d1d1d1;
+    border-radius: 15px;
+    outline: none;
+    top: 70%;
+    color: #ffffff;
+    bottom: 20px;
+    border: none;
+    /*border: 1px solid #dfdfdf;*/
+}
+#curPointButton{
+    background: #c40237;
+}
+/*最新消息*/
+#show_right{
+    width: 190px;
+    height: 436px;
+    float: left;
+    margin-top: -2px;
+}
+#show_right_top1{
+    width: 190px;
+    height:36px;
+    background-color:#efefef;
+
+}
+#show_right_top1 img{
+    float: left;
+    margin: 8px 0 0 10px;
+}
+#show_right_top1 h3{
+    float: left;
+    font-size: 14px;
+    color: #777777;
+    padding-left: 5px;
+    margin-top: 8px;
+}
+#show_right_top2{
+    list-style: none;
+    float: left;
+    background-color: #ffffff;
+    width: 190px;
+    height: 189px;
+    border-bottom: 1px solid #efefef;
+}
+.show_right_top2_a{
+    display: block;
+    text-decoration: none;
+    font-size: 11px;
+    color: #666666;
+    padding: 18px 0 0 24px
+}
+.show_right_top2_a:hover{
+    color: #e5435a;
+}
+#present{
+    width: 1203px;
+    height: 352px;
+    margin: 0 auto;
+    clear: left;
+    font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+/*猜你喜欢、元祖新品、热销推荐、节庆名俗*/
+#present_left{
+    width: 908px;
+    /*height: 74px;*/
+    float: left;
+
+}
+#guess_you_like,#new_product,#hot_recommended,#festival_custom{
+    float: left;
+    list-style: none;
+    border-bottom: 3px solid #000000;
+    position: relative;
+    z-index: 900;
+}
+#text_title1,#text_title2,#text_title3,#text_title4{
+    text-decoration: none;
+    font-size: 17px;
+    color: #4f4f4f;
+    padding: 0 79px 0 80px;
+    display: block;
+    margin: 35px 0 12px 0;
+    /*line-height: 74px;*/
+}
+/*#text_title1:hover,#text_title2:hover,#text_title3:hover,#text_title4:hover{*/
+    /*color: #e5435a;*/
+/*}*/
+#text_line1,#text_line2,#text_line3,#text_line4{
+    height: 3px;
+    width: 227px;
+    background:#e5435a;
+    border: none;
+    position: absolute;
+    bottom:-3px;
+    left: 0;
+    opacity: 0;
+    z-index: 900;
+}
+.triangle{
+    display: block;
+    height: 5px;
+}
+#triangle_pho1,#triangle_pho2,#triangle_pho3,#triangle_pho4{
+    display: block;
+    position: absolute;
+    bottom:0;
+    left: 111px;
+    opacity: 0;
+    /*display: none;*/
+}
+.text_line{
+    height: 3px;
+    width: 227px;
+    background:#e5435a;
+    border: none;
+    position: absolute;
+    bottom:-3px;
+    left: 0;
+    opacity: 0;
+    /*z-index: 1000;*/
+}
+/*猜你喜欢*/
+#present_left_bottom{
+    position: relative;
+    height: 275px;
+    width: 912px;
+    float: left;
+}
+.new_thing{
+    list-style: none;
+    height: 275px;
+    float: left;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.new_thing li{
+    width: 219px;
+    height: 262px;
+    float: left;
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+    margin:11px 7px 0 0;
+}
+
+.new_thing li:hover{
+    border: 1px solid #aaaaaa;
+    box-shadow:2px 2px 3px #aaaaaa;
+}
+.new_thing li a{
+    display: block;
+    padding: 13px 18px 0;
+    text-decoration: none;
+}
+.new_thing li a img{
+    width: 185px;
+    height: 185px;
+}
+.cake_name{
+    font-size: 14px;
+    color: #333333;
+    text-align: center;
+    margin-top: 3px;
+}
+.cake_price{
+    font-size: 20px;
+    color: #c70238;
+    text-align: center;
+    margin-top: 5px;
+}
+/*小南瓜图片*/
+#present_right img{
+    /*display: block;*/
+    /*float: right;*/
+    width: 272px;
+    height: 300px;
+    margin: 50px 0 0 19px;
+}
+/*MUCH蛋糕*/
+.angelCake,.gift,.west{
+    width:1203px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+.angelCake_text h3{
+     height: 40px;
+     line-height: 40px;
+     overflow: hidden;
+     font-size: 18px;
+     font-weight: normal;
+     padding-left: 50px;
+     background: url("../img/cake.png") no-repeat 10px 8px;
+     background-color: #f9f9f9;
+     border-bottom: 2px solid #e4004f;
+ }
+.gift_text h3{
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 50px;
+    background-color: #f9f9f9;
+    border-bottom: 2px solid #e4004f;
+    background: url("../img/gift.png") no-repeat 10px 8px;
+}
+.west_text h3{
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 50px;
+    background-color: #f9f9f9;
+    border-bottom: 2px solid #e4004f;
+    background: url("../img/west.png") no-repeat 10px 8px;
+}
+.angelCake_img,.gift_img,.west_img{
+    width: 1203px;
+    height: 382px;
+    background: #ffffff;
+}
+/*MUCH蛋糕下方图片*/
+.angelCake_img_left,.gift_img_left,.west_img_left{
+    width: 336px;
+    height: 382px;
+    background: #ffffff;
+    float: left;
+    position: absolute;
+    overflow: hidden;
+}
+.angelCake_img_left1,.gift_img_left1,.west_img_left1{
+    padding-left:20px;
+}
+.guang,.guang1,.guang3{
+    /*display: inline-block;*/
+    width: 317px;
+    height: 368px;
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    background: url(../img/guang.png) no-repeat left top;
+    /*display: none;*/
+}
+/*MUCH蛋糕三张详细图*/
+.angelCake_img_right,.gift_img_right,.west_img_right{
+    width: 864px;
+    height: 382px;
+    list-style:none;
+    float: right;
+    background: #ffffff;
+}
+.angelCake_img_right_li,.gift_img_right_li,.west_img_right_li{
+    float: left;
+    width: 248px;
+    height: 347px;
+    text-align: center;
+    padding: 20px 20px 0;
+
+}
+.angelCake_img_right_li:hover,.gift_img_right_li:hover,.west_img_right_li:hover{
+    position: relative;
+    top:-3%;
+    background: #fff;
+    box-shadow: 0 0 10px #ccc;
+
+
+}
+.angelCake_img_right_li a img{
+    width: 180px;
+    height: 180px;
+    margin: 50px auto 10px auto;
+    display: block;
+}
+.gift_img_right_li a img{
+    width: 180px;
+}
+.west_img_right_li a img{
+    width: 180px;
+    height: 180px;
+    margin: 50px auto 10px auto;
+    display: block;
+}
+
+/*文字1*/
+#angelCake_img_right_p6,#angelCake_img_right_p7,#angelCake_img_right_p8{
+    height: 28px;
+    line-height: 28px;
+    font-size: 18px;
+    color: #4f4f4f;
+    font-weight:bold;
+}
+#angelCake_img_right_p9,#angelCake_img_right_p4,#angelCake_img_right_p5{
+    height: 19px;
+    line-height: 19px;
+    font-size: 11px;
+    color: #4f4f4f;
+}
+#west_img_right_p6,#west_img_right_p7,#west_img_right_p8{
+    height: 28px;
+    line-height: 28px;
+    font-size: 18px;
+    color: #4f4f4f;
+    font-weight:bold;
+}
+#west_img_right_p9,#west_img_right_p4,#west_img_right_p5{
+    height: 19px;
+    line-height: 19px;
+    font-size: 11px;
+    color: #4f4f4f;
+}
+.angelCake_img_right_p3{
+    height: 28px;
+    line-height: 28px;
+    font-size: 18px;
+    color: #e70050;
+}
+.gift_img_right_p1{
+    height: 28px;
+    line-height: 28px;
+    font-size: 18px;
+    color: #333333;
+    font-weight: bold;
+}
+.gift_img_right_p2{
+    height: 22px;
+    line-height: 22px;
+    font-size: 13px;
+    color: #645b5c;
+    display: block;
+}
+.gift_img_right_p3{
+    font-size: 18px;
+    color: #c7023a;
+}
+.gift_img_right_text{
+    margin: 51px 0 10px 0;
+}
+/*精选活动*/
+#activity{
+    width: 1203px;
+    /*height: 267px;*/
+    margin: 0 auto;
+}
+.activity_text h3{
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 50px;
+    background-color: #f9f9f9;
+    margin-top: 10px;
+}
+#activity_img{
+    height: 217px;
+    background: #ffffff;
+}
+#activity_img img{
+    padding: 15px 0 0 18px;
+}

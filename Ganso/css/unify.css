@@ -1,0 +1,375 @@
+*{
+    margin:0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+/*a:hover{*/
+    /*color: #e5435a;*/
+/*}*/
+body{
+    background-color: #f9f9f9;
+    font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+}
+header{
+    width: 1203px;
+    height: 34px;
+    margin: 0 auto;
+    background: #eeeeee;
+}
+/*微商城*/
+#phone_mall{
+    height: 25px;
+    float: left;
+    margin:7px 7px 0 4px;
+    cursor:pointer;
+
+}
+#phone_mall img{
+    float: left;
+}
+#mark{
+    padding:0 15px 0 6px;
+    font-size: 12px;
+    color: #333333;
+    background: url(../img/down%20arrow.png) no-repeat right;
+}
+#two_dimension_code{
+    display: none;
+    position: absolute;
+    top:34px;
+    z-index: 500;
+}
+/*官方微博*/
+#blog{
+    height: 12px;
+    display: block;
+    float: left;
+    font-size: 12px;
+    color:#333333;
+    margin-top: 9px;
+}
+#blog img{
+    float: left;
+    padding-left:13px;
+    border-left: 1px solid #d9d9d9;
+}
+#blog span{
+    display: block;
+    float: left;
+    margin:2px 15px 0 6px;
+    font-size: 12px;
+    color: #333333;
+}
+#blog span:hover{
+    color:#e5435a;
+}
+/*台湾元祖*/
+#ganso{
+    height: 12px;
+    display: block;
+    float: left;
+    font-size: 12px;
+    color:#333333;
+
+}
+#ganso img{
+    float: left;
+    padding-left:8px;
+}
+#ganso span{
+    display: block;
+    float: left;
+    margin:11px 15px 0 6px;
+    font-size: 12px;
+    color: #333333;
+}
+#ganso span:hover{
+    color:#e5435a;
+}
+/*导航右边*/
+#lable{
+    float: right;
+}
+#lable ul{
+    list-style:none;
+    margin-top: 11px;
+}
+#lable li{
+    height: 12px;
+    font-size: 12px;
+    float: left;
+    padding: 0 12px 0 12px;
+    border-right: 1px solid #d9d9d9;
+}
+#lable li a{
+    color: #4f4f4f;
+    text-decoration: none;
+}
+#lable li a:hover{
+    color:#e5435a;
+}
+/*头部宣传栏*/
+#head{
+    width: 1203px;
+    height: 93px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#head img{
+    width: 100%;
+    height: 100%;
+}
+/*导航栏、搜索框*/
+#center{
+    width: 1203px;
+    /*height: 135px;*/
+    margin: 0 auto;
+    background-color: #fff;
+    position: relative;
+    clear: both;
+
+}
+#center_top{
+    height: 95px;
+}
+#center_bottom{
+    height: 38px;
+    border-bottom: 2px solid #e4004f;
+}
+/*logo*/
+#center_top_left{
+    padding: 13px 167px 0 39px;
+    float: left;
+}
+/*搜索框*/
+#center_top_center_top{
+    width: 425px;
+    height: 30px;
+    float: left;
+    border: 3px solid #c5023a;
+    background-color: #fff;
+    margin-top: 23px;
+    border-right: none;
+}
+#text{
+    line-height: 30px;
+    border: none;
+    padding-left:16px ;
+    outline: none;
+}
+#search{
+    width: 70px;
+    height: 36px;
+    background-color: #c5023a;
+    /*float: right;*/
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 23px;
+}
+#search:hover{
+    background-color:#e5435a;
+}
+/*热门搜索*/
+#hot{
+    width: 498px;
+    height: 30px;
+    float: left;
+}
+#hot a ,#hot{
+    text-decoration: none;
+    font-size: 12px;
+    color: #aeaeae;
+    margin-top: 9px;
+}
+#hot a{
+    margin-right:7px;
+}
+#hot a:hover{
+    color: #333333;
+}
+/*派送图片*/
+#center_top_right{
+    position: absolute;
+    top: 8px;
+    right: 22px;
+}
+/*全部商品分类*/
+#classify h3{
+    width: 225px;
+    height: 37px;
+    background: #e9004f;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 38px;
+    text-align: center;
+    float: left;
+    clear: left;
+    /*font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;*/
+}
+
+
+/*#classify_top li{*/
+/*width: 225px;*/
+/*height: 66px;*/
+/*}*/
+.classify_top_one1{
+    width: 28px;
+    height: 66px;
+    float: left;
+}
+.classify_top_one1 img{
+    width: 22px;
+    height: 22px;
+    margin: 10px 0 0 6px;
+    /*float: left;*/
+}
+.classify_top_one{
+    width: 225px;
+    height: 66px;
+    background: #eeeeee;
+}
+.classify_top_titie{
+    /*float: right;*/
+    width: 192px;
+
+    padding: 12px 0 0 34px;
+
+}
+.classify_top_titie a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #6b6b6b;
+}
+.classify_top_titie a:hover{
+    color: #e5435a;
+}
+.classify_top_titie1{
+    padding: 4px 0 0 34px;
+}
+.classify_top_titie1 a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #6b6b6b;
+    padding-right: 2px;
+}
+.classify_top_titie1 a:hover{
+    color: #e5435a;
+}
+/*MUCH蛋糕*/
+.classify_top_two{
+    width: 225px;
+    height: 86px;
+    background: #ffffff;
+}
+
+.classify_top_three{
+    width: 225px;
+    height: 66px;
+    background: #ffffff;
+}
+/*元祖礼券*/
+.classify_top_four{
+    width: 225px;
+    height: 86px;
+    background: #eeeeee;
+}
+/*导航栏*/
+#navigation_bar{
+    height: 37px;
+    font-size: 12px;
+    font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+    float: left;
+}
+#navigation_bar li{
+    list-style: none;
+    float: left;
+    line-height: 38px;
+
+}
+#navigation_bar li a{
+    font-size: 16px;
+    color: #4f4f4f;
+    text-decoration: none;
+    padding: 0 26px 0 26px;
+    border-right:1px solid  #d9d9d9;
+}
+#navigation_bar li a:hover{
+    color: #e5435a;
+}
+/*底部*/
+#footer{
+    width: 1203px;
+    height: 290px;
+    background: #ffffff;
+    margin: 0 auto;
+    margin-top: 25px;
+    border-top:7px solid #de5251;
+}
+#footer_top{
+    width: 1203px;
+    margin: 20px 0;
+}
+#footer_top img{
+    width: 100%;
+}
+#footer_top1{
+    width: 496px;
+    height: 31px;
+    line-height: 31px;
+    margin: 0 auto;
+}
+#footer_top1 li{
+    list-style: none;
+    float: left;
+    text-align: center;
+
+
+}
+#footer_top1 li a {
+    color: #4f4f4f;
+    font-size: 11px;
+    padding: 0 11px;
+    border-right: 1px solid #4f4f4f;
+    text-align: center;
+}
+#footer_top1 li a:hover{
+    color: #e5435a;
+}
+#footer_top2{
+    width: 453px;
+    height: 31px;
+    line-height: 31px;
+    color: #4f4f4f;
+    font-size: 11px;
+    margin: 0 auto;
+}
+#footer_top2 a{
+    color: #4f4f4f;
+    font-size: 11px;
+}
+#footer_top2 a:hover{
+    color: #e5435a;
+}
+#footer_top3{
+    width:649px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+/*主页。。。。返回页面*/
+#Return_word{
+    width: 1203px;
+    height: 44px;
+    margin: 0 auto;
+}
+#Return_word a{
+    color: #3e3a39;
+    font-size: 11px;
+    line-height: 44px;
+    float: left;
+}
+#Return_word a:hover{
+    color: #e5435a;
+}

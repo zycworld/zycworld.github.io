@@ -1,0 +1,202 @@
+#classify_top{
+    width: 225px;
+    height: 436px;
+    float: left;
+    position: absolute;
+    top:135px;
+    list-style: none;
+    display: none;
+}
+/*登陆界面*/
+#land{
+    width: 1170px;
+    margin: 0 auto;
+    background: #ffffff;
+    box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, .3);
+    overflow: hidden;
+}
+#land_top{
+    height: 50px;
+    border-bottom: 1px solid #e2e2e2;
+    /*position: relative;*/
+}
+#land_top_p{
+    width: 264px;
+    margin: 0 auto;
+    position: relative;
+
+}
+#land_top_p1,#land_top_p2{
+    color: #999999;
+    float: left;
+    line-height: 50px;
+}
+#land_top_p1{
+    color: #333333;
+}
+#land_top_p2{
+    margin-left: 200px;
+}
+#line{
+    width: 70px;
+    height: 2px;
+    background:#848484;
+    position: absolute;
+    top: 49px;
+    left: -18px;
+    right: 0;
+    /*z-index:100;*/
+}
+#land_bottom{
+    height: 344px;
+}
+/*网站预告*/
+#word{
+    color: #ff0000;
+    width: 222px;
+    float: left;
+    line-height: 24px;
+    margin: 59px 0 0 100px;
+}
+#land_form{
+    width: 377px;
+    /*height: 123px;*/
+    float: left;
+    margin: 32px 0 0 79px;
+}
+/*登陆表单*/
+.form_text{
+    font-size: 11px;
+    color: #999999;
+}
+.forminput{
+    width: 368px;
+    height: 36px;
+    border: 1px solid #D7D7D7;
+    border-radius: 2px;
+    font-size: 16px;
+    padding-left: 5px;
+    outline: 0;
+}
+#land_form1,#land_form2{
+    margin-bottom: 18px;
+}
+
+/*自动登录*/
+.automatic_logon{
+    font-size: 11px;
+    color: #3e3a39;
+}
+/*忘记密码*/
+.forget_password a{
+    color:#3e3a39 ;
+    font-size: 11px;
+    float: right;
+}
+.forget_password a:hover{
+    color:#e5435a;
+}
+/*登录按钮*/
+.land_button{
+    width: 375px;
+    height: 36px;
+    background: #8975b4;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 36px;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    margin-top: 16px;
+    cursor: pointer;
+}
+/*使用第三方账号登录*/
+.land_p{
+    font-size: 11px;
+    color: #3e3a39;
+    margin-top: 19px;
+
+}
+.register_p{
+    font-size: 11px;
+    color: #3e3a39;
+    float: right;
+}
+/*二维码*/
+.big_two-dimension_code img{
+    width: 170px;
+    height: 200px;
+    float: left;
+    margin:53px 0 0  78px;
+}
+.big_two-dimension_code2 img{
+    width: 170px;
+    height: 200px;
+    float: left;
+    margin:53px 0 0  84px;
+}
+/*注册页面*/
+#register_bottom {
+    height: 536px;
+    display: none;
+}
+#register_form{
+    width: 371px;
+    float: left;
+    margin-left: 401px;
+    height: 100px;
+    background: #ffffff;
+}
+#register_form1,#register_form2,#register_form3,#register_form4,#register_form5{
+    margin-bottom: 18px;
+    height: 62px;
+}
+.register_formtext{
+    font-size: 11px;
+    color: #999999;
+    position: absolute;
+}
+.register_formspan{
+    position: relative;
+    top: 5px;
+    left: 2px;
+}
+.registerinput{
+    width: 368px;
+    height: 36px;
+    border: 1px solid #D7D7D7;
+    border-radius: 2px;
+    font-size: 16px;
+    margin-top: 5px;
+    outline: 0;
+}
+#registerinput1{
+    width: 244px;
+    height: 36px;
+    border: 1px solid #D7D7D7;
+    border-radius: 2px;
+    font-size: 16px;
+    margin-top: 5px;
+    outline: 0;
+    float: left;
+}
+#registerinput2{
+    width: 124px;
+    height: 38px;
+    background: #8975b4;
+    color:#ffffff;
+    line-height: 38px;
+    font-size:12px;
+    border: none;
+    outline: 0;
+    float: left;
+    margin-top: 5px;
+    /*margin-top: -10px;*/
+}
+#register_form1{
+    margin-top: 32px;
+}
+#registerinput3{
+    width: 370px;
+}

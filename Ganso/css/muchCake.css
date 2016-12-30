@@ -1,0 +1,276 @@
+#muchCakeimg{
+    height: 220px;
+    width: 1203px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+
+}
+#muchCakeimg img{
+    height: 100%;
+    width: 100%;
+ }
+/*MUCH中间内容*/
+#muchCake_content{
+    width: 1203px;
+    height: 2478px;
+    margin: 0 auto;
+    /*position: relative;*/
+
+}
+/*类别+价格*/
+#muchcake{
+    width: 990px;
+    background-color: #ffffff;
+    float: left;
+    margin-top: 15px;
+}
+#classification,#price{
+    width:990px;
+
+}
+#classification_dl，#price dl {
+    width: 990px;
+    line-height: 28px;
+    position: relative;
+    font-size: 14px;
+    color: #5d5d5d;
+}
+
+#classification dl dt,#price dl dt{
+    padding: 10px 0;
+    width: 110px;
+    text-align: center;
+    float: left;
+    /*position: absolute;*/
+}
+#classification dl dd,#price dl dd{
+    padding: 10px 0 10px 109px;
+    width: 881px;
+    border-bottom: 1px solid #e1e1e1;
+}
+#more{
+    display: block;
+}
+#more a,#price a{
+    padding: 0 9px;
+    display: inline-block;
+    color: #4f4f4f;
+    font-size: 14px;
+}
+#more a:hover{
+    color: #e5435a;
+}
+#price a:hover{
+    color: #e5435a;
+}
+#more span{
+    font-size: 14px;
+    color: #4f4f4f;
+}
+#reduce{
+    display: none;
+}
+#reduce a{
+    padding: 0 9px;
+    display: inline-block;
+    color: #4f4f4f;
+    font-size: 14px;
+}
+#reduce a:hover{
+    color: #e5435a;
+}
+#price span,#reduce span{
+      font-size: 14px;
+      color: #4f4f4f;
+}
+/*综合排序*/
+#sort{
+    width: 988px;
+    height:39px;
+    background: #f5f5f5;
+    border: 1px solid #e5e5e5;
+    float: left;
+    margin-top: 15px;
+}
+#sort_one li{
+    list-style: none;
+    float: left;
+    width: 83px;
+    height: 39px;
+    border-right: 1px solid #e5e5e5;
+    text-align: center;
+    position: relative;
+    z-index: 900;
+}
+#sort_one_one,#sort_one_one a{
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 39px;
+    background-color:#e4004f;
+}
+
+#sort_one1,#sort_one4{
+    font-size: 14px;
+    color: #4f4f4f;
+    line-height: 39px;
+}
+.sort_one1 span{
+    padding-right: 13px;
+    background: url(../img/up.png) no-repeat right center;
+}
+/*!*价格下标*! 销量下标*/
+#price_one,#salesvolume_one{
+    width: 130px;
+    position: absolute;
+    top: 39px;
+    left: 0px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-bottom: 0;
+    display: none;
+}
+#price_one li,#salesvolume_one li{
+    width: 130px;
+    border-bottom: 1px solid #e5e5e5;
+    text-align: center;
+}
+
+#price_one li a,#salesvolume_one li a{
+    color: #4f4f4f;
+    font-size: 14px;
+    line-height: 39px;
+}
+#price_one li a:hover,#salesvolume_one li a:hover{
+    color: #e5435a;
+}
+/*蛋糕内容*/
+#cakeContent{
+    float: left;
+    width: 990px;
+}
+#cakeDiv{
+    width: 990px;
+    height: 190px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e1e1e1;
+}
+/*蛋糕图片*/
+#cakeImg{
+    height: 150px;
+    width: 150px;
+    margin: 20px 22px 0 5px;
+}
+#imgView{
+    display: inline-block;
+    float: left;
+}
+#cakeSpec{
+    float: left;
+    width: 350px;
+    font-size: 14px;
+    padding-right: 80px;
+    padding-top: 15px;
+}
+#cakeSpecH3View{
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    display: block;
+    font-size: 16px;
+    margin:20px 0 10px 0;
+    font-weight: 700;
+    color: #4f4f4f;
+}
+#cakeSpecH3View:hover{
+    color:#e5435a;
+}
+#blocks{
+    line-height: 20px;
+    color: #3c3c3c;
+    height: 40px;
+    overflow: hidden;
+}
+#specs{
+    line-height: 20px;
+    color: #3c3c3c;
+    height: 40px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+#price1{
+    float: left;
+    width: 179px;
+    font-size: 24px;
+    color: #e93d6d;
+    margin-top: 70px;
+}
+#priceSpecs{
+    font-size: 15px;
+    font-weight: normal;
+}
+/*立即购买*/
+#buyListView{
+    margin: 70px 43px 0 0;
+    float: right;
+    width: 127px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background-color: #e50150;
+    display: inline;
+}
+#buyListView:hover{
+    background-color: #e5435a;
+}
+/*猜你喜欢*/
+#muchCake_content_right{
+    width: 195px;
+    float: right;
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*right: 0;*/
+
+}
+#likeCake{
+    width: 195px;
+    height: 30px;
+    background-color: #e50150;
+    color: #ffffff;
+    line-height: 30px;
+    text-align: center;
+}
+#likeCake_li{
+    width: 195px;
+    background-color: #ffffff;
+    list-style: none;
+}
+#likeCake_li a img{
+    width: 170px;
+    height: 170px;
+    display: block;
+    margin: 0 auto;
+}
+#likeCake_li p{
+    font-size: 12px;
+    width: 170px;
+    height: 27px;
+    line-height: 27px;
+    text-align: right;
+    overflow: hidden;
+    font-weight: bold;
+    color: #e70050;
+    display: block;
+}
+#likeCake_li span{
+    margin-left: 12.5px;
+    width: 170px;
+    height: 36px;
+    line-height: 18px;
+    overflow: hidden;
+    font-weight: normal;
+    display: block;
+    font-size: 12px;
+}
+
