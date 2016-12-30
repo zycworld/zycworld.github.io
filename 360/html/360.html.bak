@@ -1,0 +1,555 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>360</title>
+		<link rel="stylesheet" type="text/css" href="../css/360.css"/>
+	</head>
+	<body>
+		<header>
+			<div id="header1">
+				<div id="header1_left">
+					<a href="#" style="color:#23ac38">中文版</a>
+					<a href="#">Global</a>
+				</div>
+				<div id="header1_right">
+					<a href="#">注册</a>
+					<a href="#">登录</a>
+				</div>
+			</div>
+		</header>
+		<nav>
+			<div id="nav">
+				<a href="#"><img src="../img/logo.png"/></a>
+				<ul id="nav2">
+					<li><a href="#">电脑软件</a></li>
+					<li><a href="#">手机软件</a></li>
+					<li><a href="#">360商城</a></li>
+					<li><a href="#">安全理赔</a></li>
+					<li><a href="#">个人服务</a></li>
+					<li><a href="#">企业服务</a></li>
+					<li><a href="#">游戏</a></li>
+					<li><a href="#">社区</a></li>
+				</ul>
+				<div id="nav3">
+					<input type="text"/>
+					<button>搜一下</button>
+				</div>
+			</div>
+		</nav>
+		<div id="centen">
+			<div id="center_left">
+				<div id="center_left_top">
+					<a href="#" class="center_left_top1">
+						<span class="center_left_top2">
+							<span class="center_left_top3">安全软件</span>
+						</span>
+						<span class="center_left_top4">
+							<span class="center_left_top5">智能硬件</span>
+						</span>
+					</a>
+					<a href="#" class="center_left_top6"></a>
+					<a href="#" class="center_left_top7"></a>
+				</div>
+				<div id="center_left_bottom">
+					<div id="center_left_bottom1">
+						<div id="center_left_bottom1_1">
+							<a href="#"><img src="../img/360jr.png"/></a>
+						</div>
+						<div id="center_left_bottom1_2">
+							<h3><a href="#">360金融</h3></a>
+							<p>理财、贷款、保险</p>
+							<p>安全快捷的金融服务</p>
+						</div>
+					</div>
+					<div id="center_left_bottom2">
+						<div id="center_left_bottom2_1">
+							<a href="#"><img src="../img/360tj.png"/></a>
+						</div>
+						<div id="center_left_bottom2_2">
+							<h3><a href="#">360淘金</h3></a>
+							<p>年轻人的第一次风险投资</p>
+							<p>360帮你做股东</p>
+						</div>
+					</div>
+					<div id="center_left_bottom3">
+						<div id="center_left_bottom3_1">
+							<a href="#"><img src="../img/360yx.png"/></a>
+						</div>
+						<div id="center_left_bottom3_2">
+							<h3><a href="#">游戏大厅</h3></a>
+							<p>360官方游戏辅助工具</p>
+							<p>小号多开、硬件检测</p>
+						</div>
+					</div>
+					<a href="#" class="center_bottom4"></a>
+					<a href="#" class="center_bottom5"></a>
+				</div>
+			</div>
+			<div id="center_right">
+				<div id="center_right_top">
+					<div id="center_right_top1">
+						<h2>最新动态</h2>
+						<a href="#">更多>></a>
+					</div>
+					<div id="center_right_top2">
+						<div id="center_right_top2_left">
+							<a href="#"><img src="../img/ren.jpg"/>
+						</div>
+						<div id="center_right_top2_right">
+							<a href="#">周鸿祎谈360回归：别轻信借壳谣言</a>
+							<p>经过这么长时间，我们算是顺利地完成了在美退市的工作，有一些东西可以跟大家交流一下。<a href="#" class="center_right_top2_right1">详情>></a></p>
+							
+						</div>
+					</div>
+					<ul id="center_right_top3">
+						<li><a href="#">360私有化回归意图：扩展业务到国家安全层面</a></li>
+						<li><a href="#">周鸿祎：360将很快成为一家纯正的内资公司</a></li>
+						<li><a href="#">私有化企业这么多，为什么360就成了使命召唤？</a></li>
+						<li><a href="#">信息泄露成全社会隐患 360组合拳守护用户安全</a></li>
+						<li><a href="#">360手机助手绿皮书指引APP创业方向：直播成趋势</a></li>
+					</ul>
+				</div>
+				<div id="center_right_bottom">
+					<div id="center_right_bottom1">
+						<h2>快速下载</h2>
+						<a href="#">更多>></a>
+					</div>
+					<ul id="center_right_bottom2">
+						<li>
+							<a href="#" class="center_right_bottom2_1"><img src="../img/anquanweishi.png"/></a>
+							<a href="#" class="center_right_bottom2_2">安全卫士</a>
+							<a href="#" class="center_right_bottom2_3"></a>
+						</li>
+						<li>
+							<a href="#" class="center_right_bottom2_1"><img src="../img/shoujiweishi.png"/></a>
+							<a href="#" class="center_right_bottom2_2">手机卫士</a>
+							<a href="#" class="center_right_bottom2_3"></a>
+						</li>
+						<li>
+							<a href="#" class="center_right_bottom2_1"><img src="../img/liulanqi.png"/></a>
+							<a href="#" class="center_right_bottom2_2">安全浏览器</a>
+							<a href="#" class="center_right_bottom2_3"></a>
+						</li>
+						<li>
+							<a href="#" class="center_right_bottom2_1"><img src="../img/shoujizhushou.png"/></a>
+							<a href="#" class="center_right_bottom2_2">手机助手</a>
+							<a href="#" class="center_right_bottom2_3"></a>
+						</li>
+						<li>
+							<a href="#" class="center_right_bottom2_1"><img src="../img/shadu.png"/></a>
+							<a href="#" class="center_right_bottom2_2">杀毒</a>
+							<a href="#" class="center_right_bottom2_3"></a>
+						</li>
+						<li>
+							<a href="#" class="center_right_bottom2_1"><img src="../img/360shangchen.png"/></a>
+							<a href="#" class="center_right_bottom2_2">360商城</a>
+							<a href="#" class="center_right_bottom2_3"></a>
+						</li>
+						<li>
+							<a href="#" class="center_right_bottom2_1"><img src="../img/wifi.png"/></a>
+							<a href="#" class="center_right_bottom2_2">免费WIFI</a>
+							<a href="#" class="center_right_bottom2_3"></a></li>
+						<li>
+							<a href="#" class="center_right_bottom2_1"><img src="../img/yunpan.png"/></a>
+							<a href="#" class="center_right_bottom2_2">云盘手机版</a>
+							<a href="#" class="center_right_bottom2_3"></a></li>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="substance">
+			<div id="substance_left">
+				<h2><a href="#">360安全软件</a></h2>
+				<div id="substance_left1">
+					<ul id="substance_left1_top">
+						<li id="substance_left1_top1">
+							<div id="substance_left1_top12">
+								<a href="#"><img src="../img/weishi_60.png"></a>
+							</div>
+							<div id="substance_left1_top13">
+								<h3><a href="#">360安全卫士</a></h3>
+							</div>
+							<p>杀木马 防欺诈 免费修电脑</p>
+							<div id="substance_left1_top14">
+								<a href="#">下载</a>
+								<a href="#">论坛</a>
+							</div>
+						</li>
+						<li id="substance_left1_top2">
+							<div id="substance_left1_top22">
+								<a href="#"><img src="../img/sd_60.png"></a>
+							</div>
+							<div id="substance_left1_top23">
+								<h3><a href="#">360杀毒</a></h3>
+							</div>
+							<p>全面防御 超强查杀 轻巧快速</p>
+							<div id="substance_left1_top24">
+								<a href="#">下载</a>
+								<a href="#">论坛</a>
+							</div>
+						</li>
+						<li id="substance_left1_top1">
+							<div id="substance_left1_top12">
+								<a href="#"><img src="../img/se_60.png"></a>
+							</div>
+							<div id="substance_left1_top13">
+								<h3><a href="#">360安全浏览器</a></h3>
+							</div>
+							<p>防木马欺诈 安全好用的浏览器</p>
+							<div id="substance_left1_top14">
+								<a href="#">下载</a>
+								<a href="#">论坛</a>
+							</div>
+						</li>
+						<li id="substance_left1_top2">
+							<div id="substance_left1_top22">
+								<a href="#"><img src="../img/cse_60.png"></a>
+							</div>
+							<div id="substance_left1_top23">
+								<h3><a href="#">360极速浏览器</a></h3>
+							</div>
+							<p>无缝双核网页闪电打开</p>
+							<div id="substance_left1_top24">
+								<a href="#">下载</a>
+								<a href="#">论坛</a>
+							</div>
+						</li>
+						<li id="substance_left1_top1">
+							<div id="substance_left1_top12">
+								<a href="#"><img src="../img/MobileSafe_60.png"></a>
+							</div>
+							<div id="substance_left1_top13">
+								<h3><a href="#">360手机卫士</a></h3>
+							</div>
+							<p>防骚扰 防扣费 保护隐私</p>
+							<div id="substance_left1_top14">
+								<a href="#">下载</a>
+								<a href="#">论坛</a>
+							</div>
+						</li>
+						<li id="substance_left1_top2">
+							<div id="substance_left1_top22">
+								<a href="#"><img src="../img/Box_60.png"></a>
+							</div>
+							<div id="substance_left1_top23">
+								<h3><a href="#">360手机助手</a></h3>
+							</div>
+							<p>手机游戏恶意扣费先行赔付</p>
+							<div id="substance_left1_top24">
+								<a href="#">下载</a>
+								<a href="#">论坛</a>
+							</div>
+						</li>
+						<li id="substance_left1_top1">
+							<div id="substance_left1_top12">
+								<a href="#"><img src="../img/t01c2c7d8f18653f248.png"></a>
+							</div>
+							<div id="substance_left1_top13">
+								<h3><a href="#">360驱动大师</a></h3>
+							</div>
+							<p>专注解决驱动问题</p>
+							<div id="substance_left1_top14">
+								<a href="#">下载</a>
+								<a href="#">论坛</a>
+							</div>
+						</li>
+						<li id="substance_left1_top2">
+							<div id="substance_left1_top22">
+								<a href="#"><img src="../img/t01dee6ec22cf9e7c8b.png"></a>
+							</div>
+							<div id="substance_left1_top23">
+								<h3><a href="#">360免费WiFi</a></h3>
+							</div>
+							<p>电脑一键变WiFi 让手机免费上网</p>
+							<div id="substance_left1_top24">
+								<a href="#">下载</a>
+								<a href="#">论坛</a>
+							</div>
+						</li>
+					</ul>
+					<div id="substance_left1_bottom">
+						<dl id="substance_left1_bottom1">
+							<dt></dt>
+							<dd><a href="#">压缩</dd>
+							<dd><a href="#">鲁大师</dd>
+							<dd><a href="#">云盘</dd>
+							<dd><a href="#">系统急救箱</dd>
+							<dd><a href="#">游戏大厅</dd>
+							<dd><a href="#">急救盘</dd>
+							<dd><a href="#">360网管版</dd>
+							<dd><a href="#">儿童桌面</dd>
+							<dd><a href="#">系统重装大师</dd>
+							<dd><a href="#">安全桌面</dd>
+							<dd><a href="#">XP盾甲</dd>
+						</dl>
+						<dl id="substance_left1_bottom2">
+							<dt></dt>
+							<dd><a href="#">清理大师</dd>
+							<dd><a href="#">免费WIFI</dd>
+							<dd><a href="#">一键ROOT</dd>
+							<dd><a href="#">手机/Pad浏览器</dd>
+							<dd><a href="#">卫士极客版</dd>
+							<dd><a href="#">影视大全</dd>
+							<dd><a href="#">智能摄像机</dd>
+							<dd><a href="#">手机桌面</dd>
+							<dd><a href="#">手机专家</dd>
+							<dd><a href="#">云盘</dd>
+							<dd><a href="#">安全通讯录</dd>
+						</dl>
+						<dl id="substance_left1_bottom3">
+							<dt></dt>
+							<dd><a href="#">点睛营销平台</dd>
+							<dd><a href="#">奇胜效果联盟</dd>
+							<dd><a href="#">开放平台大全</dd>
+							<dd><a href="#">移动开放平台</dd>
+							<dd><a href="#">智能家居</dd>
+							<dd><a href="#">来店通</dd>
+							<dd><a href="#">加固保</dd>
+							<dd><a href="#">网站卫士</dd>
+							<dd><a href="#">信用平台</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+			<div id="substance_right">
+				<h2><a href="#">360商城</a></h2>
+				<div id="substance_right1">
+					<a href="#"><img src="../img/t019caf7b18d5d6914f.jpg"></a>
+					<a href="#" class="substance_right1_1"></a>
+					<a href="#" class="substance_right1_2"></a>
+				</div>
+				<ul id="substance_right2">
+					<li id="substance_right3">
+						<div id="substance_right3_1">
+							<a href="#"><img src="../img/t01f49aba04d37d2e6b.jpg"/></a>
+						</div>
+						<div id="substance_right3_2">
+							<a href="#">360手机N4</a>
+							<p>￥999</p>
+						</div>
+					</li>
+					<li id="substance_right4">
+						<div id="substance_right4_1">
+							<a href="#"><img src="../img/t01c0d26876c3a0c9ef.jpg"/></a>
+						</div>
+						<div id="substance_right4_2">
+							<a href="#">巴迪龙儿童手表</a>
+							<p>￥199</p>
+						</div>
+					</li>
+					<li id="substance_right5">
+						<div id="substance_right5_1">
+							<a href="#"><img src="../img/t019259e10ab9506194.jpg"/></a>
+						</div>
+						<div id="substance_right5_2">
+							<a href="#">行车记录仪二代</a>
+							<p>￥599</p>
+						</div>
+					</li>
+					<li id="substance_right6">
+						<div id="substance_right6_1">
+							<a href="#"><img src="../img/t01fb4e1313c443f246.jpg"/></a>
+						</div>
+						<div id="substance_right6_2">
+							<a href="#">360摄像机1080P</a>
+							<p>￥249</p>
+						</div>
+					</li>
+				</ul>
+				<div id="substance_right3_bottom">
+						<dl id="substance_right3_bottom1">
+							<dt></dt>
+							<dd><a href="#">360手机N4S</dd>
+							<dd><a href="#">360手机N4</dd>
+							<dd><a href="#">360手机F4</dd>
+							<dd><a href="#">360手机旗舰版</dd>
+							<dd><a href="#">360手机青春版</dd>
+							<dd><a href="#">移动电源</dd>
+							<dd><a href="#">手机拍照</dd>
+							<dd><a href="#">手机耳机</dd>
+							<dd><a href="#">手机U盘</dd>
+						</dl>
+						<dl id="substance_right3_bottom2">
+							<dt></dt>
+							<dd><a href="#">巴迪龙儿童手表</dd>
+							<dd><a href="#">随身wifi2</dd>
+							<dd><a href="#">随身wifi3</dd>
+							<dd><a href="#">无线自发电门铃</dd>
+							<dd><a href="#">防丢贴片</dd>
+							<dd><a href="#">超级充电器</dd>
+							<dd><a href="#">安全插线板</dd>
+							<dd><a href="#">更多硬件>></dd>
+						</dl>
+						<dl id="substance_right3_bottom3">
+							<dt></dt>
+							<dd><a href="#">极米无屏电视Z4X</dd>
+							<dd><a href="#">极米芒果小觅</dd>
+							<dd><a href="#">咚咚音响套装</dd>
+							<dd><a href="#">乐范魔力贴运动版</dd>
+							<dd><a href="#">魔调耳机</dd>
+							<dd><a href="#">新游智能手柄NEO</dd>
+							<dd><a href="#">免费试用</dd>
+						</dl>
+					</div>
+			</div>
+		</div>
+		<div id="tu">
+			<a href="#">
+				<img src="../img/t019c8a5f1c2cc3f103.jpg"/>
+			</a>
+		</div>
+		<div id="message">
+			<div id="news">
+				<div id="news1">
+					<h2>新闻动态</h2>
+					<a href="#">更多>></a>
+				</div>
+				<div id="news2">
+					<a href="#">
+						<img src="../img/t012882fc2a4148e45b.jpg"/>
+					</a>	
+				</div>
+				<div id="news3">
+					<a href="#"><p> 郎平携手中国女排带你感受奥运大场面 </p></a>
+				</div>
+				<ul id="news4">
+					<li><a href="#">周鸿祎和郎平师徒的“老友记”</a></li>
+					<li><a href="#">张召忠: 360Q5达到F15战斗机安全标准</a></li>
+					<li><a href="#">政商圈黑莓受冷 360Q5成多国大使馆新宠</a></li>
+					<li><a href="#">警方支招：看家或首选360智能摄像机</a></li>
+					<li><a href="#">能拍照的电话手表 360巴迪龙儿童手表评测</a></li>
+				</ul>
+			</div>
+			<div id="safe">
+				<div id="safe1">
+					<h2>安全咨询</h2>
+					<a href="#">更多>></a>
+				</div>
+				<div id="safe2">
+					<a href="#">
+						<img src="../img/t012f36ca514edacc1f.jpg"/>
+					</a>	
+				</div>
+				<div id="safe3">
+					<a href="#"><p> 来自Qing.0时代的守卫者 </p></a>
+				</div>
+				<ul id="safe4">
+					<li><a href="#">360安全专家揭秘电信诈骗黑色产业链</a></li>
+					<li><a href="#">博士被骗7万 360手机卫士揭“熟人”骗局</a></li>
+					<li><a href="#">360手机浏览器安全检测、欺诈全赔双保障</a></li>
+					<li><a href="#">图文教程：如何开启360“反勒索服务”</a></li>
+					<li><a href="#">360推出“敲诈先赔” 轻松解决敲诈者病毒</a></li>
+				</ul>
+			</div>
+			<div id="community">
+				<div id="community1">
+					<h2>社区热帖</h2>
+					<a href="#">更多>></a>
+				</div>
+				<div id="community2">
+					<a href="#">
+						<img src="../img/t0139d4715a4c6e4b62.jpg"/>
+					</a>	
+				</div>
+				<div id="community3">
+					<a href="#"><p> 喜迎新学期，360学霸大赛邀你有奖抢答！ </p></a>
+				</div>
+				<ul id="community4">
+					<li><a href="#">360Q5/Plus火爆异常：预约量达300多万部</a></li>
+					<li><a href="#">一张图读懂最专业的安全手机360Q5系列</a></li>
+					<li><a href="#">十周年庆生！360安全卫士迎来最新版11.0</a></li>
+					<li><a href="#">小云喵讲巴迪龙的故事——巴迪龙奇幻小说</a></li>
+					<li><a href="#">国民老公张继科花椒直播，五百万人围观！</a></li>
+				</ul>
+			</div>
+			<div id="hot">
+				<div id="hot1">
+					<h2>社区热帖</h2>
+					<a href="#">更多>></a>
+				</div>
+				<div id="hot2">
+					<a href="#">
+						<img src="../img/t011980f1a0daf3f851.jpg"/>
+					</a>	
+				</div>
+				<div id="hot3">
+					<a href="#"><p> 下载商城客户端，188元现金券等你领</p></a>
+				</div>
+				<ul id="hot4">
+					<li><a href="#">360儿童机器人全网开售！</a></li>
+					<li><a href="#">360智能摄像机水滴直播覆盖张家界美景</a></li>
+					<li><a href="#">360手机N4S, 最有诚意的手机</a></li>
+					<li><a href="#">360巴迪龙儿童手表5C：让孩子童年更快乐</a></li>
+					<li><a href="#">360行车记录仪提醒:雨天行车谨记这三点</a></li>
+				</ul>
+			</div>
+		</div>
+		<footer>
+			<div id="footer">
+				<div id="footer_left">
+					<dl id="footer_left1">
+						<dt>关于360</dt>
+						<dd><a href="#">公司简介</a></dd>
+						<dd><a href="#">创始人</a></dd>
+						<dd><a href="#">大事记</a></dd>
+						<dd><a href="#">获奖记录</a></dd>
+						<dd><a href="#">品牌宣传片</a></dd>
+						<dd><a href="#">Investor Relations</a></dd>
+					</dl>
+					<dl id="footer_left2">
+						<dt>加入360</dt>
+						<dd><a href="#">社会招聘</a></dd>
+						<dd><a href="#">校园招聘</a></dd>
+						<dd><a href="#">360大学</a></dd>
+					</dl>
+					<dl id="footer_left3">
+						<dt>用户服务</dt>
+						<dd><a href="#">意见反馈</a></dd>
+						<dd><a href="#">理赔举报</a></dd>
+						<dd><a href="#">手机回收</a></dd>
+						<dd><a href="#">电脑/手机维修</a></dd>
+						<dd><a href="#">360隐私保护白皮书</a></dd>
+					</dl>
+					<dl id="footer_left4">
+						<dt>商务合作</dt>
+						<dd><a href="#">联系我们</a></dd>
+						<dd><a href="#">开放平台</a></dd>
+						<dd><a href="#">360点睛营销平台</a></dd>
+						<dd><a href="#">360奇胜效果联盟</a></dd>
+						<dd><a href="#">360企业服务</a></dd>
+						<dd><a href="#">360生态链</a></dd>
+					</dl>
+				</div>
+				<div id="footer_right">
+					<div id="footer_right1">
+						<div id="footer_right2">
+							<h3>关注我们</h3>
+							<a href="#">官方微博</a>
+						</div>
+						<ul id="footer_right3">
+							<li>
+								<div id="footer_right3_1">
+									<img src="../img/t01a6167590c23071c4.png"/>
+								<div>
+								<div id="footer_right3_2">官方微信<div>
+							</li>
+							<li>
+								<div id="footer_right3_3">
+									<img src="../img/t014d854b1e4ece8990.png"/>
+								<div>
+								<div id="footer_right3_4">技术支持<div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="footer_top">
+				<p>Copyright©2005-2016 360.com 版权所有 360互联网安全中心</p>
+				<p><a href="#">京ICP证080047号[京ICP备08010314号-6] 文网文[2009]024号 新出网证（京）字069号 工商营业执照</a></p>
+				<p><a href="#"><img src="img/t01d8eda6e551cf2615.png"/>京公网安备 11000002000006号</a></p>
+			</div>
+		</footer>
+	</body>
+</html>
