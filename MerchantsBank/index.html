@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>场景</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,
+    maximum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="swiper-3.4.0.min.css">
+    <link rel="stylesheet" href="animate.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<div class="music" id="music">
+    <audio  src="music.mp3" autoplay="autoplay" loop="loop" id="audio"></audio>
+</div>
+<div  class="btn" id="nextImg">
+    <img src="image/arrow-up.png"/>
+</div>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <!--第一页-->
+        <div class="swiper-slide" style="background: #3e88fe;">
+            <div class="side1-bottom">
+                <img src="image/indexBuilding.png"  class="ani"
+                swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.2s"/>
+            </div>
+            <div class="side1-middle" >
+                <img src="image/indexCloud.png" class="ani donghua"
+                     swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.4s"/>
+            </div>
+            <div class="flowers1">
+                <img src="image/indexFlowers01.png" class="ani"
+                     swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.4s"/>
+            </div>
+            <div class="flowers2">
+                <img src="image/indexFlowers02.png" class="ani"
+                     swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.6s"/>
+            </div>
+            <div class="text">
+                <img src="image/indexTxt.png" class="ani"
+                     swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.2s"/>
+            </div>
+            <div class="xx" >
+                <img src="image/indexStars.png" class="ani donghua"
+                     swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.6s"/>
+            </div>
+            <div class="sjx">
+                <img src="image/indexElements.png" class="ani donghua"
+                     swiper-animate-effect="zoomIn" swiper-animate-duration="2s" swiper-animate-delay="0.4s"/>
+            </div>
+            <div class="fj">
+                <img src="image/未标题-1.png" class="ani donghua"
+                     swiper-animate-effect="zoomInDown" swiper-animate-duration="1s" swiper-animate-delay="0.8s"/>
+            </div>
+        </div>
+        <!--第二页-->
+        <div class="swiper-slide slide2" style="background: #000">
+            <img src="image/wasBg.jpg" class="ani"
+                 swiper-animate-effect="fadeIn" swiper-animate-duration="1s"/>
+            <img src="image/wasStar.png" class="ani"
+                 swiper-animate-effect="star" swiper-animate-duration="1s" swiper-animate-delay="0.2s"/>
+            <img src="image/wasIT.png" class="ani"
+                 swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="0.4s"/>
+            <img src="image/wasFarm.png" class="ani"
+                 swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="0.6s"/>
+        </div>
+        <!--第三页-->
+        <div class="swiper-slide slide3" style="background: #000">
+            <img src="image/earlyBg.jpg">
+            <div class="ani" style="width: 100%;height: 100%" id="div"
+                 swiper-animate-effect="fadeOut" swiper-animate-duration="3s" swiper-animate-delay="0.8s">
+                <img src="image/earlyBuilding.png" class="ani"
+                     swiper-animate-effect="fadeIn" swiper-animate-duration="3s" swiper-animate-delay="0.2s">
+                <img src="image/earlyTitle.png" class="ani"
+                     swiper-animate-effect="fadeIn" swiper-animate-duration="3s" swiper-animate-delay="0.6s">
+            </div>
+
+            <div style="width: 100%;height: 100%;position: absolute;left: 0;top: 0;"
+            class="ani"
+            swiper-animate-effect="fadeOut" swiper-animate-duration="3s" swiper-animate-delay="5s">
+                <img src="image/lastBusStation.png" id="action" class="ani"
+                     swiper-animate-effect="fadeIn" swiper-animate-duration="3s" swiper-animate-delay="2s">
+                <img src="image/lastBusTitle.png" id="zhybc" class="ani"
+                     swiper-animate-effect="fadeIn" swiper-animate-duration="3s" swiper-animate-delay="2s">
+                <img src="image/bus.png"  class="ani" id="bus"
+                 swiper-animate-effect="ofadeIn" swiper-animate-duration="5s" swiper-animate-delay="3.0s">
+                <img src="image/lastBusAvatar.png" class="ani" id="person"
+                     swiper-animate-effect="bounceInRight" swiper-animate-duration="3s" swiper-animate-delay="3s">
+            </div>
+            <img src="image/myTeamBg.jpg" id="mtb" class="ani"
+                 swiper-animate-effect="fadeIn" swiper-animate-duration="2s" swiper-animate-delay="5s"/>
+            <img src="image/myTeamWall.png" id="myteamW" class="ani"
+                 swiper-animate-effect="fadeIn" swiper-animate-duration="2s" swiper-animate-delay="5.2s"/>
+            <img src="image/myTeamAvatar.png" id="zperson" class="ani"
+                 swiper-animate-effect="fadeIn" swiper-animate-duration="2s" swiper-animate-delay="6s">
+            <img src="image/myTeamTxt.png" id="my" class="ani"
+                 swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="6.5s">
+            <img src="image/myTeamTxt01.png" id="team" class="ani"
+                 swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="6.8s">
+            <img src="image/myTeamTxt02.png" id="kj" class="ani"
+                 swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="7.1s">
+            <img src="image/myTeamTxt03.png" id="wl" class="ani"
+                 swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="7.4s">
+            <img src="image/myteamWhereTxt.png" id="where" class="ani"
+                 swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="8s">
+        </div>
+        <!--第四页-->
+        <div class="swiper-slide">
+            <div id="ws">
+                <img src="image/lightOffBg.jpg">
+                <img src="image/cornerWall.png.">
+                <img src="image/lightOff.png." id="deng">
+                <img src="image/cornerTitle.png"  class="ani"
+                     swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="0.2s">
+                <img src="image/clickGuide.png" class="ani donghua"
+                     swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="0.6s">
+            </div>
+            <div id="bt">
+                <img src="image/lightOn.png" >
+                <img src="image/weKnowYou.png" class="ani"
+                     swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="0.2s" >
+                <img src="image/lightOnBg.jpg" class="ani"
+                     swiper-animate-effect="fadeIn" swiper-animate-duration="2s" swiper-animate-delay="0.4s" >
+                <img src="image/lightFlowers.png" class="ani"
+                     swiper-animate-effect="fadeIn" swiper-animate-duration="3s" swiper-animate-delay="2s" >
+            </div>
+        </div>
+        <!--第五页-->
+        <div class="swiper-slide slide5">
+            <img src="image/aboutBg.jpg">
+
+            <div class="ani" style="width: 100%;height: 100%;position: absolute;top: 0;left: 0"
+                    swiper-animate-effect="fadeOut" swiper-animate-duration="1s" swiper-animate-delay="1.5s">
+                <img src="image/footTa.png" class="ani" id="redtext"
+                    swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.5s">
+            </div>
+
+            <img src="image/footCity.jpg" class="ani"
+                 swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="0.8s">
+            <img src="image/footAvatar.png" class="ani"
+                 swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="1s">
+            <img src="image/footTx.png"  class="ani"
+                 swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="2s">
+        </div>
+        <!--第六页-->
+        <div class="swiper-slide slide6">
+            <img src="image/runBg.jpg" >
+            <div class="ani" style="width: 100%;height: 100%;position: absolute;top: 0;left: 0"
+                 swiper-animate-effect="fadeOut" swiper-animate-duration="1s" swiper-animate-delay="1.5s">
+                <img src="image/runTa.png" class="ani" id="runtext"
+                     swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.5s">
+            </div>
+            <img src="image/runAvatar.png." class="ani"
+                 swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="2s">
+            <img src="image/runTxt.png"  class="ani"
+                 swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="3s">
+        </div>
+        <!--第七页-->
+        <div class="swiper-slide">
+            <div id="salaryBg" >
+                <img src="image/salaryBg.png"  class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.4s" swiper-animate-delay="1.4s"/>
+                <img src="image/salaryAvatar.png"  class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="1.6s"/>
+                <img src="image/salaryTxt.png"  class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="2s"/>
+            </div>
+            <div id="salaryTa" class="ani" swiper-animate-effect="fadeOut" swiper-animate-duration="0.2s" swiper-animate-delay="2s">
+                <img src="image/salaryTa.png"  class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.6s" swiper-animate-delay="1s"/>
+            </div>
+        </div>
+        <!--第八页-->
+        <div class="swiper-slide" id="slide8">
+            <div id="introBg" >
+                <img src="image/introLogo.png"  class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" />
+                <img src="image/introAvatar.png"  class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" />
+                <img src="image/introFlowers.png"  class="ani donghua" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" />
+                <img src="image/introCloudy.png"  class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" />
+                <img src="image/introStar.png"  class="ani donghua" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" />
+            </div>
+            <div style="width: 90%;height: 75%;position: absolute;top:10%;background: rgb(252,89,85);border-radius: 2%;left: 5%;overflow: hidden;z-index: 33">
+                <div style="width: 94%;height:96%;position: absolute;top: 2%;background: rgb(239,61,56);left: 3%;color: #fff;font-size: 14px;" class="text">
+                    <p style="text-align:left;margin-top: 15%;text-indent: 2em;line-height: 1.5rem">招商银行是世界500强企业，也是我国第一家完全有企业法人持股的股份制商业银行。</p>
+                    <p style="text-align:left;text-indent: 2em;line-height: 1.5rem">招银网络科技（简称招银科技）是招商银行的全资子公司，致力于为招商银行全球化发展提供强有力的软件开发及技术支持。公司以成为中国银行业最强大脑为己任，在彼此信任和尊重的基础上，追求高标准的交付和价值创造。现有深圳、杭州两家分支机构，共同担负着招商银行电子信息化的重任。</p>
+                    <p style="text-align:left;text-indent: 2em;line-height: 1.5rem">这里是中国最具活力的银行，这里是中国最优秀的金融IT团队之一。如果您足够优秀，那么这里将会是您智慧闪光、价值实现和梦想腾飞的舞台，我们热忱期待您的加盟。</p>
+                </div>
+            </div>
+        </div>
+        <!--第九页-->
+        <div class="swiper-slide" style="background:#3e88fe; ">
+            <div id="endBg">
+                <img src="image/endLogo.png" class="ani" id="zsyh"
+                     swiper-animate-effect="fadeIn" swiper-animate-duration="1s"
+                     swiper-animate-delay="1.3s">
+                <img src="image/indexFlight.png" class="ani resize donghua2"
+                     swiper-animate-effect="zoomInUp" swiper-animate-duration="1s"
+                     swiper-animate-delay="1.4s"   >
+                <img src="image/endBg.png" class="ani resize" >
+                <img src="image/indexCloud.png" class="ani resize donghua" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="1.5"   >
+                <img src="image/endTxt.png" class="ani resize" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="1.6s"   >
+                <img src="image/endMail.png" class="ani resize"  swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="1.7s"   >
+                <img src="image/endClickGuide.png" class="ani resize"  swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="1.8s"   >
+                <img src="image/endBottomTxt.png" class="ani resize" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="1.9s"   >
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+</div>
+
+<script src="jquery.min.js"></script>
+<script src="swiper-3.4.0.min.js"></script>
+<script src="swiper.animate1.0.2.min.js"></script>
+<script src="cmd.js"></script>
+</body>
+</html>
