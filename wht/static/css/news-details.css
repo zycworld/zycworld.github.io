@@ -1,0 +1,31 @@
+
+.news-details {
+    width: 1100px;
+    margin: 0 auto 100px;
+}
+
+.news-details .news-title {
+    text-align: center;
+    margin: 50px 0;
+
+}
+
+.news-details h1 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.8em;
+    color: #333;
+}
+.news-details span{
+    color: #999;
+}
+.news-content p{
+    text-indent: 2em;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5em;
+    margin-bottom: 30px;
+}
+.news-content .pic{
+    text-align: center;
+}

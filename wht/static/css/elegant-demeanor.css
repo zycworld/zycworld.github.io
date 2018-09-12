@@ -1,0 +1,31 @@
+
+.content .video-list {
+    width: 1100px;
+    margin: 50px auto;
+}
+
+.video-par{
+    float: left;
+    border: 1px solid #333;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+.video-list .video-par:nth-child(2n+1){
+    margin-right: 60px;
+}
+.video-list .video-par p{
+    text-align: center;
+    line-height: 50px;
+    color: #333;
+    transition: 0.3s;
+}
+.video-list .video-par:hover p{
+    color: #d82006;
+}
+.video-js .vjs-time-control {
+    display: block;
+}
+
+.video-js .vjs-remaining-time {
+    display: none;
+}

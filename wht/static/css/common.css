@@ -1,0 +1,251 @@
+/*------------------------------顶部------------------------------*/
+#header{
+    background-color: #fff;
+}
+.header-content{
+    width: 1100px;
+    height: 104px;
+    margin: 0 auto;
+}
+.logo{
+    padding-top: 11px;
+    float: left;
+}
+.h-c-right{
+    height: 104px;
+    float: right;
+    width: 790px;
+}
+.h-c-right .r-top{
+    float: right;
+    margin-right: 20px;
+    font-size: 14px;
+    padding-top: 10px;
+
+}
+.h-c-right .r-top i{
+    font-size: 14px;
+    vertical-align: middle;
+
+}
+.h-c-right .r-top .r-top-son{
+    float: left;
+    margin-left: 20px;
+    color: #333;
+    position: relative;
+}
+.h-c-right .r-top .r-top-son:hover{
+    color: #e13d4e;
+}
+.r-top-son .ewm{
+    padding: 5px;
+    background: #e13d4e;
+    display: none;
+    position: absolute;
+    right: 0;
+    z-index: 10;
+
+}
+.r-top-son:hover .ewm{
+    display: block;
+}
+.h-c-right .header-nav{
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.h-c-right .header-nav a{
+    color: #333;
+}
+.h-c-right .header-nav .u-title{
+    float: left;
+    position: relative;
+
+
+}
+.h-c-right .header-nav  .active .n-title{
+    font-weight: bold;
+    color: #e13d4e;
+}
+.h-c-right .header-nav .u-title .n-title{
+    display: block;
+    line-height: 50px;
+    min-width: 70px;
+    text-align: center;
+    margin: 0 5px;
+}
+.h-c-right .header-nav .u-title:hover .n-title{
+    color: #e13d4e;
+}
+.h-c-right .header-nav .u-title ul{
+    position: absolute;
+    left: -7px;
+    top:50px;
+    background: #e13d4e;
+    width: 100px;
+    z-index: 10;
+    display: none;
+}
+.h-c-right .header-nav .u-title:hover ul{
+    display: block;
+}
+.h-c-right .header-nav .u-title ul li{
+    padding: 5px;
+    text-align: center;
+}
+.h-c-right .header-nav .u-title ul li a{
+    color: #fff;
+}
+.h-c-right .header-nav .u-title ul li:hover{
+    background-color: antiquewhite;
+}
+.h-c-right .header-nav .u-title ul li:hover a{
+    color: #333333;
+}
+/*------------------------------顶部------------------------------*/
+/*------------------------------底部------------------------------*/
+.footer{
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 60px 0;
+}
+.footer-content{
+    width: 1100px;
+    margin: 0 auto;
+}
+.footer-content .c-li{
+    float: left;
+    width: 170px;
+    margin-left: 16px;
+    background-color: #d3d5db;
+    height: 200px;
+    border-radius: 6px;
+    position: relative;
+
+}
+.footer-content .c-li .sign{
+    width: 100px;
+    height: 100px;
+    margin-left: 35px;
+    margin-top: -50px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    transition: 0.5s;
+}
+.footer-content .c-li .sign i{
+    vertical-align:middle ;
+    font-size: 40px;
+    color: #ff3950;
+}
+.footer-content .c-li h4{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #f734cf;
+}
+.footer-content .c-li:nth-child(1){
+    margin-left: 0;
+}
+.footer-content .c-li .l-mark{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0);
+    overflow: hidden;
+}
+.footer-content .c-li ul{
+    font-size: 14px;
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    bottom: -150px;
+    z-index: 10;
+    transition: 0.5s;
+}
+.footer-content .c-li:hover {
+    background-color: #fff;
+}
+.footer-content .c-li:hover .sign{
+    background-color:#d3d5db ;
+}
+.footer-content .c-li:hover .l-mark ul{
+    transform: translateY(-140px);
+    background-color: #fff;
+}
+.footer-content .c-li ul li{
+    line-height: 25px;
+}
+.footer-content .c-li ul .left{
+    width: 35%;
+    text-align: center;
+    display: inline-block;
+}
+.footer-content .c-li ul .right{
+    width: 65%;
+    text-align: center;
+    display: inline-block;
+}
+.page-foot{
+    background-color: #5f5f63;
+    padding:5px 0;
+    font-size: 12px;
+    color: #fff;
+}
+.page-foot div{
+    width: 1100px;
+    margin: 0 auto;
+}
+.page-foot p{
+    display:  inline;
+}
+.page-foot a{
+    color: #ffffff;
+    margin-left: 6px;
+}
+#back-top{
+    float: right;
+}
+#back-top:hover{
+    color: #e13d4e;
+}
+/*------------------------------底部------------------------------*/
+
+/*------------------------------弹出层------------------------------*/
+#mask-tips{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1000000;
+    background-color: #d3d5db;
+    left: 0;
+    top: 0;
+}
+#mask-tips h1{
+    width: 1000px;
+    margin: 100px auto 50px;
+    font-size: 22px;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+#mask-tips .mask-content{
+    width: 1000px;
+    margin: 0 auto;
+}
+#mask-tips .mask-content a{
+    display: block;
+    text-decoration: none;
+    width: 100px;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #e13d4e;
+    color: #fff;
+    margin: 0 auto 20px;
+
+}

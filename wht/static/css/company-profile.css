@@ -58,8 +58,10 @@
     line-height: 2em;
     color: #8e8e8e;
 }
-.content section img{
-    margin: 30px 0;
+.content section img
+
+.list-div .list li{
+    height: auto;
 }
 
 

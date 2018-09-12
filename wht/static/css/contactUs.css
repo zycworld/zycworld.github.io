@@ -1,0 +1,75 @@
+
+.contact-content {
+    width: 1100px;
+    margin: 0 auto;
+
+}
+
+.contact-us h1, .online-message h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #e13d4e;
+    margin: 50px 0;
+
+}
+
+.contact-us {
+    position: relative;
+}
+
+#dituContent {
+
+    width: 100%;
+    height: 550px;
+}
+.dea{
+    width: 838px;
+    height: 130px;
+    margin: 30px auto 200px;
+    background-color: #e13d4e;
+}
+.dea li{
+    float: left;
+    width: 166px;
+    height: 130px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+.dea li:first-child,.dea li:last-child{
+    width:250px ;
+}
+.dea li .icon{
+    width: 43px;
+    height: 40px;
+    margin: 12px auto 0;
+    background: url("../img/map_bgimg.png") no-repeat center;
+}
+.dea li:nth-child(1) .icon{
+    background-position: 0 0;
+}
+.dea li:nth-child(2) .icon{
+    background-position: -42px 0;
+}
+.dea li:nth-child(3) .icon{
+    background-position: -84px 0;
+}
+.dea li:nth-child(4) .icon{
+    background-position: -126px 0;
+
+}
+.dea li p{
+    margin-top: 12px;
+}
+.dea li:after{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 60px;
+    right: 0;
+    top: 30px;
+    background-color: #ccc;
+}
+.dea li:last-child:after{
+    width: 0;
+}

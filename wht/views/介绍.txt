@@ -1,33 +1,50 @@
 
 index.html=》首页
-dangerousGoodsOperation.html=》（产业板块）危货运营页面
-productOil.html=》（产业板块）成品油页面
-newEnergy.html=》（产业板块）新能源页面
-logistics.html=》（产业板块）物流页面
-coal.html=》（产业板块）煤炭页面
-car.html=》（产业板块）车辆维修页面
-
-strengthCertification.html=》（我的优势）实力认证页面
-professionalTeam.html=》（我的优势）专业团队页面
-serviceIdea.html=》（我的优势）服务理念页面
-sales-scope.html=》（我的优势）销售范围页面
-
 recruitment-position.html=》（人才招聘）招聘职位
 contact-us.html=》（联系我们）联系我们
+news-details.html=》新闻详情页
+------------------------------------------------------------------------------------------
+indeustry=》dangerousGoodsOperation.html=》（产业板块）危货运营页面
+indeustry=》productOil.html=》（产业板块）成品油页面
+indeustry=》newEnergy.html=》（产业板块）新能源页面
+indeustry=》logistics.html=》（产业板块）物流页面
+indeustry=》coal.html=》（产业板块）煤炭页面
+indeustry=》car.html=》（产业板块）车辆维修页面
+------------------------------------------------------------------------------------------
+
+myAdvantage=》strengthCertification.html=》（我的优势）实力认证页面
+myAdvantage=》professionalTeam.html=》（我的优势）专业团队页面
+myAdvantage=》serviceIdea.html=》（我的优势）服务理念页面 -1
+myAdvantage=》sales-scope.html=》（我的优势）销售范围页面 -1
+
+------------------------------------------------------------------------------------------
+aboutUs=》company-profile.html=》（走进万和通）公司简介 -1
+aboutUs=》corporate-culture.html=》（走进万和通）企业文化 -1
+aboutUs=》learning-team.html=》（走进万和通）学习型团队 -1
+aboutUs=》company-view.html=》（走进万和通）公司实景 -1
+aboutUs=》company-event.html=》（走进万和通）公司活动 -1
+aboutUs=》elegant-demeanor.html=》（走进万和通）万和通风采 -1
+
+------------------------------------------------------------------------------------------
+
+news=》company-news.html=》（新闻资讯）公司新闻 -1
+news=》party-building-learning.html=》（新闻资讯）党建学习教育 -1
+news=》party-building-learning-display.html=》（新闻资讯）党建学习展示 -1
+news=》positive-energy.html=》（新闻资讯）正能量 -1
 
 
-company-news.html=》（新闻资讯）公司新闻
-party-building-learning.html=》（新闻资讯）党建学习教育
-party-building-learning-display.html=》（新闻资讯）党建学习展示
-positive-energy.html=》（新闻资讯）正能量
+css 或 js 未分离的
 
 
-company-profile.html=》（走进万和通）公司简介
-corporate-culture.html=》（走进万和通）企业文化
-learning-team.html=》（走进万和通）学习型团队
-company-view.html=》（走进万和通）公司实景
-company-event.html=》（走进万和通）公司活动
-elegant-demeanor.html=》（走进万和通）万和通风采
+
+
+
+
+news-details.html
+
+
+
+
 
 
 
