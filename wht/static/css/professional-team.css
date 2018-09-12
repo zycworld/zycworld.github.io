@@ -1,0 +1,69 @@
+.professional-team-content{
+
+  margin-bottom: 50px;
+
+
+}
+.introduce h2,.staff-representative h2,.new-energy h2{
+    text-align: center;
+    margin: 50px 0;
+    font-size: 18px;
+}
+.introduce{
+    width: 1100px;
+    margin: 0 auto;
+}
+.introduce p{
+    line-height: 2em;
+    font-size: 18px;
+}
+.s-r-pic{
+
+    width: 1200px;
+    margin: 0 auto;
+}
+.s-r-pic li{
+    float: left;
+    width: 200px;
+    margin-left: 40px;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    padding: 3px;
+    transition: 0.3s;
+    margin-bottom: 40px;
+}
+.s-r-pic li div{
+       height: 190px;
+}
+.s-r-pic li p,.new-energy ul p{
+    text-align: center;
+    line-height: 50px;
+    color: #e13d4e;
+}
+.s-r-pic li img,.new-energy ul img{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+.s-r-pic li:hover{
+    border-color:#e13d4e ;
+    transform:translateY(-10px);
+    box-shadow:  0 0  10px red  ;
+}
+.new-energy ul{
+    width: 1150px;
+    margin: 0 auto;
+}
+.new-energy li{
+    width: 333px;
+    margin-left: 50px;
+    float: left;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    padding: 3px;
+    transition: 0.3s;
+    margin-bottom: 40px;
+}
+.new-energy li:hover{
+    transform:scale(1.2)
+}

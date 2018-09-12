@@ -1,0 +1,54 @@
+.page-content{
+    width: 100%;
+}
+.page-content .content{
+    margin: 0 auto;
+}
+.page-content .pics{
+    vertical-align: middle;
+}
+.content nav{
+    background-color: #f1f1f1;
+}
+.content nav .nav-content{
+    width: 1100px;
+    height: 90px;
+    margin: 0 auto;
+}
+.content nav .nav-content li{
+    width: 25%;
+    float: left;
+    text-align: center;
+    line-height: 90px;
+    box-sizing: border-box;
+    position: relative;
+}
+.content nav .nav-content li a{
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+.content nav .nav-content li:after{
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 20px;
+    background-color: #333;
+    right: -1px;
+    top:35px
+}
+.content nav .nav-content li:last-child:after{
+    width: 0;
+}
+.content nav .nav-content li:hover a{
+    border-bottom: 2px solid #e13d4e;
+    color: #e13d4e;
+}
+.content nav .nav-content li .active{
+    border-bottom: 2px solid #e13d4e;
+    color: #e13d4e;
+}
+
+
+
+

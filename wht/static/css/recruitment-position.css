@@ -1,0 +1,90 @@
+.talent-idea-content,.notes-content{
+    width: 50%;
+    float: left;
+}
+.talent-idea-content h1,.job h1,.notes-content h1{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #e13d4e;
+}
+.talent-idea-content{
+    margin-bottom: 50px;
+}
+.talent-idea-content p,.notes-content p{
+    font-size: 18px;
+    line-height: 1.8em;
+}
+
+.recruitment-position-content {
+    width: 1100px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 30px 0 100px;
+}
+.info-content{
+    margin-top: 10px;
+}
+.info-title {
+    width: 100%;
+    line-height: 40px;
+    background-color: #d3d5db;
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+.info-title:hover{
+    background-color: #ccc;
+    color: #fff;
+}
+.info-title i {
+    float: right;
+    cursor: pointer;
+}
+.info-details{
+    width: 100%;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    border-top:0 ;
+    padding: 20px;
+    position: relative;
+    display: none;
+}
+.info-details .duty div,.info-details .requirement div{
+    margin-left: 30px;
+    margin-bottom: 20px;
+
+}
+.info-details .duty div p,.info-details .requirement div p{
+    line-height: 2em;
+}
+.info-details .duty h5,.info-details .requirement h5{
+    margin-bottom: 20px;
+}
+.det{
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+}
+.det p{
+    float: left;
+    width: 50%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding-right: 20px;
+    line-height: 26px;
+}
+.info-details label{
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
+.info-details label input{
+    display: none;
+}
+.info-details label span{
+    display: inline-block;
+    padding: 10px;
+    background-color: #008bf6;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}

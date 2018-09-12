@@ -1,0 +1,110 @@
+.footer{
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 60px 0;
+}
+.footer-content{
+    width: 1100px;
+    margin: 0 auto;
+}
+.footer-content .c-li{
+    float: left;
+    width: 170px;
+    margin-left: 16px;
+    background-color: #d3d5db;
+    height: 200px;
+    border-radius: 6px;
+    position: relative;
+
+}
+.footer-content .c-li .sign{
+    width: 100px;
+    height: 100px;
+    margin-left: 35px;
+    margin-top: -50px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    transition: 0.5s;
+}
+.footer-content .c-li .sign i{
+    vertical-align:middle ;
+    font-size: 40px;
+    color: #ff3950;
+}
+.footer-content .c-li h4{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #f734cf;
+}
+.footer-content .c-li:nth-child(1){
+     margin-left: 0;
+}
+.footer-content .c-li .l-mark{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0);
+    overflow: hidden;
+}
+
+.footer-content .c-li ul{
+    font-size: 14px;
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    bottom: -150px;
+    z-index: 10;
+    transition: 0.5s;
+}
+.footer-content .c-li:hover {
+    background-color: #fff;
+}
+.footer-content .c-li:hover .sign{
+    background-color:#d3d5db ;
+}
+.footer-content .c-li:hover .l-mark ul{
+    transform: translateY(-140px);
+    background-color: #fff;
+}
+.footer-content .c-li ul li{
+    line-height: 25px;
+}
+.footer-content .c-li ul .left{
+    width: 35%;
+    text-align: center;
+    display: inline-block;
+}
+.footer-content .c-li ul .right{
+    width: 65%;
+    text-align: center;
+    display: inline-block;
+}
+
+.page-foot{
+    background-color: #5f5f63;
+    padding:5px 0;
+    font-size: 12px;
+    color: #fff;
+}
+.page-foot div{
+    width: 1100px;
+    margin: 0 auto;
+}
+.page-foot p{
+    display:  inline;
+}
+.page-foot a{
+    color: #ffffff;
+    margin-left: 6px;
+}
+#back-top{
+    float: right;
+}
+#back-top:hover{
+    color: #e13d4e;
+}

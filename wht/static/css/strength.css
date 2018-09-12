@@ -1,0 +1,24 @@
+/*实力认证*/
+.strength-content{
+    width: 1200px;
+    margin: 50px auto;
+}
+.strength-content ul li{
+    width: 300px;
+    margin-left: 100px;
+    float: left;
+    margin-bottom: 50px;
+    transition: 0.5s;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 2px solid #cccccc;
+}
+.strength-content ul li img{
+    width: 100%;
+    vertical-align: middle;
+}
+.strength-content ul li:hover{
+    transform: scale(1.4);
+    border-color:red ;
+
+}

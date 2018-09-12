@@ -1,0 +1,324 @@
+/*banner*/
+.swiper-container {
+    width: 100%;
+}
+.swiper-slide {
+    width: 100%;
+    height: 500px;
+    background-size: 100% 100%;
+    background-repeat:no-repeat ;
+}
+.swiper-container:hover .swiper-button-next,.swiper-container:hover .swiper-button-prev{
+    display: block;
+}
+.swiper-button-next,.swiper-button-prev{
+    display: none;
+}
+.swiper-pagination-bullet{
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    border-radius: 100%;
+    background: gray;
+    opacity: 0.8;
+}
+.swiper-pagination-bullet-active{
+    opacity: 1;
+    background: #007aff;
+}
+/*产品板块*/
+/*六边形*/
+.hexagon2{
+    width: 110px;
+    height: 160px;
+    background-color:orange ;
+    position: relative;
+    float: left;
+    margin-left: 100px;
+    margin-right: 54px;
+}
+
+.hexagon2 .left{
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -40px;
+    top: 0;
+    border-right: 40px solid orange;
+    border-top: 80px solid transparent;
+    border-bottom: 80px solid transparent;
+}
+.hexagon2 .right{
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: -40px;
+    top: 0;
+    border-left: 40px solid orange;
+    border-top: 80px solid transparent;
+    border-bottom: 80px solid transparent;
+}
+.plate-title{
+    text-align: center;
+    padding: 50px 0;
+}
+.plate-btn{
+    text-align: center;
+}
+.plate-btn a{
+    display: inline-block;
+    width: 148px;
+    height: 40px;
+    border: 2px solid #d7d7d7;
+    margin: 30px;
+    text-align: center;
+    line-height: 40px;
+    background: #f4f4f4;
+    color: #d42d16;
+    transition: 0.2s;
+}
+.plate-btn a:hover{
+    background: #d42d16;
+    color: #fff;
+    border-color: #fff;
+}
+.product{
+    width: 100%;
+    /*height: 430px;*/
+    background: url("../img/mapbg.jpg")no-repeat ;
+    background-size: 100% 100%;
+}
+.product-content{
+    width: 1100px;
+    margin: 0 auto;
+
+}
+.product-content .hexagon2{
+    background: #e2e2e2;
+    font-size: 18px;
+    line-height: 160px;
+    text-align: center;
+    transition: 0.5s;
+    color: #333;
+}
+.product-content .hexagon2:hover{
+    transform: translateY(-10px);
+    background: #f6212a;
+    color: #fff;
+}
+.product-content .hexagon2:hover .right{
+    border-left-color:#f6212a ;
+}
+.product-content .hexagon2:hover .left{
+    border-right-color:#f6212a ;
+}
+.product-content .hexagon2 .left{
+    border-right-color:#e2e2e2 ;
+}
+.product-content .hexagon2 .right{
+    border-left-color:#e2e2e2 ;
+}
+.product-content .hexagon2:nth-child(1){
+    background: #f6212a;
+    color: #fff;
+}
+.product-content .hexagon2:nth-child(1) .left{
+    border-right-color:#f6212a ;
+}
+.product-content .hexagon2:nth-child(1) .right{
+    border-left-color:#f6212a ;
+ }
+.product-title{
+    width: 1100px;
+    margin: 50px auto 0;
+    text-align: center;
+    color: rgb(69, 69, 69);
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.8em;
+}
+.product-title span{
+    color: #d82006;
+}
+
+/*关于我们*/
+.About-us-content{
+    width: 1100px;
+    margin: 0 auto 20px;
+}
+.About-us-content .left{
+    float: left;
+    width: 666px;
+
+}
+.About-us-content .left p{
+    font-size: 16px;
+    line-height: 2em;
+    text-indent: 2em;
+}
+.About-us-content .right{
+    float: right;
+    width: 434px;
+    margin-top: 30px;
+}
+/*我的优势*/
+.advantage{
+    background-color: #f4f4f4;
+
+}
+.advantage-content {
+    width: 1100px;
+    margin: 0 auto;
+}
+.advantage-content li{
+    float: left;
+    width: 200px;
+    margin-left: 100px;
+    text-align: center;
+}
+.advantage-content .pic{
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: #999999;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 3px;
+    border: 5px solid #fff;
+    text-align: center;
+    color: #fff;
+    line-height: 190px;
+    transition: 0.5s;
+    margin-bottom: 40px;
+
+}
+.advantage-content .pic i{
+    font-size: 65px;
+}
+.advantage-content li:hover .pic{
+    background-color: #f6212a;
+    transform:scale(1.1)
+}
+.advantage-content li .text{
+    font-size: 16px;
+}
+.advantage-content li:hover .text{
+    color: #f62162;
+}
+.advantage-content li:nth-child(1){
+    margin-left: 0;
+}
+/*新闻资讯*/
+.news-content{
+    width: 1100px;
+    margin: 0 auto;
+}
+.news-c-son{
+    float: left;
+    margin-left:40px ;
+    width: 245px;
+    transition: 0.2s;
+
+}
+.news-c-son .content{
+    box-sizing: border-box;
+    padding: 0 5px;
+}
+.news-c-son img{
+    width: 100%;
+    height: 164px;
+    vertical-align: middle;
+}
+.news-c-son h5{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #333;
+    padding: 10px 0;
+
+}
+.news-c-son .content{
+    background-color: #f1f1f1;
+    padding-bottom: 30px;
+    transition: 0.2s;
+}
+.news-content .news-c-son:nth-child(1){
+    margin-left: 0;
+}
+.news-c-son .content p{
+    height: 60px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 10px;
+}
+.news-c-son .content span{
+   display: block;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    background-color: #ff6700;
+    line-height: 40px;
+    margin: 0 auto;
+    color: #fff;
+}
+.news-c-son:hover .content p,.news-c-son:hover .content h5{
+    color: #fff;
+}
+
+.news-c-son:hover .content{
+    background-color: #ff3950;
+
+}
+
+
+/*---------------------------------悬浮-------------------------------------------*/
+#suspension{
+    position: fixed;
+    height: 84px;
+    width: 237px;
+
+    right: -177px;
+    top: 50%;
+    margin-top: -42px;
+    z-index: 20;
+    transition: 0.5s;
+}
+#suspension:hover{
+    transform: translateX(-177px);
+}
+#suspension .left{
+    float: left;
+    height: 84px;
+    width: 60px;
+    background-color: #dc1e32;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px 0;
+    color: #fff;
+}
+#suspension .left i{
+
+    font-size: 22px;
+}
+#suspension .left p{
+    font-size: 12px;
+    margin-top: 10px;
+
+}
+#suspension .right{
+    width: 177px;
+    height: 84px;
+    float: right;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+}
+#suspension .right a{
+    line-height: 82px;
+    color: #999;
+}
+#suspension .right a:hover{
+    color: #e13d4e;
+}
